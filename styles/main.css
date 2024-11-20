@@ -1,0 +1,30 @@
+@import url("https://fonts.cdnfonts.com/css/cubano");
+
+:root {
+  --font-family: Cubano, Cochin, Georgia, Times, "Times New Roman", serif;
+  --background-color: #181616;
+  --drop-zone-bg: #222322;
+  --drop-zone-border: #71fc76;
+  --drop-zone-hover-bg: #7964ff;
+  --drop-zone-hover-border: #222322;
+  --drop-zone-hover-color: #222322;
+  --line-stroke: #3d3d3d;
+  --line-stroke-width: 5;
+  --animated-line-stroke: #71fc76;
+  --animated-line-stroke-width: 10;
+}
+
+* {
+  font-family: var(--font-family);
+}
+#__nuxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1300px;
+  margin: 5% auto;
+}
+body {
+  background-color: var(--background-color);
+}
